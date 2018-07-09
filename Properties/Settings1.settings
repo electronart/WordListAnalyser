@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="WordListAnalyser2.Properties" GeneratedClassName="Settings1" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings>
+    <Setting Name="FilePathA" Type="System.String" Scope="User" Roaming="false">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FilePathB" Type="System.String" Scope="User" Roaming="false">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="useDTSAlgorithm" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
