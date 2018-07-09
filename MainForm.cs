@@ -1042,7 +1042,7 @@ namespace WordListAnalyser2
 			if (InternetGetConnectedState(out Out, 0) == true)
 			{
 			//July 2018 path was to WebHelp URL, changed to GitHub repo
-			System.Diagnostics.Process.Start("https://github.com/electronart/WordListAnalyzer/wiki");
+			System.Diagnostics.Process.Start("https://github.com/electronart/WordListAnalyser/wiki");
 			} else MessageBox.Show("Not Connected to Internet", "WebHelp", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 		}
 		

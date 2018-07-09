@@ -183,20 +183,20 @@ namespace WordListAnalyser2
             this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(170, 26);
-            this.toolStripMenuItem2.Text = "WebHelp";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(216, 26);
+            this.toolStripMenuItem2.Text = "Help";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.ToolStripMenuItem2Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(167, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem3.Image")));
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(170, 26);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(216, 26);
             this.toolStripMenuItem3.Text = "&About";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.ToolStripMenuItem3Click);
             // 
@@ -245,9 +245,9 @@ namespace WordListAnalyser2
             this.groupBox2.Controls.Add(this.numericUpDownMax);
             this.groupBox2.Controls.Add(this.numericUpDownMin);
             this.groupBox2.Location = new System.Drawing.Point(461, 79);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(325, 91);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
@@ -275,7 +275,7 @@ namespace WordListAnalyser2
             // 
             this.numericUpDownMax.BackColor = System.Drawing.SystemColors.Window;
             this.numericUpDownMax.Location = new System.Drawing.Point(165, 27);
-            this.numericUpDownMax.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownMax.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownMax.Name = "numericUpDownMax";
             this.numericUpDownMax.ReadOnly = true;
             this.numericUpDownMax.Size = new System.Drawing.Size(56, 22);
@@ -293,7 +293,7 @@ namespace WordListAnalyser2
             // 
             this.numericUpDownMin.BackColor = System.Drawing.SystemColors.Window;
             this.numericUpDownMin.Location = new System.Drawing.Point(69, 27);
-            this.numericUpDownMin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDownMin.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownMin.Name = "numericUpDownMin";
             this.numericUpDownMin.ReadOnly = true;
             this.numericUpDownMin.Size = new System.Drawing.Size(56, 22);
@@ -304,7 +304,7 @@ namespace WordListAnalyser2
             // buttonCalculate
             // 
             this.buttonCalculate.Location = new System.Drawing.Point(827, 769);
-            this.buttonCalculate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCalculate.Margin = new System.Windows.Forms.Padding(4);
             this.buttonCalculate.Name = "buttonCalculate";
             this.buttonCalculate.Size = new System.Drawing.Size(133, 28);
             this.buttonCalculate.TabIndex = 4;
@@ -328,7 +328,7 @@ namespace WordListAnalyser2
             this.listViewResults.FullRowSelect = true;
             this.listViewResults.LabelWrap = false;
             this.listViewResults.Location = new System.Drawing.Point(13, 177);
-            this.listViewResults.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listViewResults.Margin = new System.Windows.Forms.Padding(4);
             this.listViewResults.MultiSelect = false;
             this.listViewResults.Name = "listViewResults";
             this.listViewResults.ShowGroups = false;
@@ -434,9 +434,9 @@ namespace WordListAnalyser2
             this.groupBox4.Controls.Add(this.labelCompressionFactor);
             this.groupBox4.Controls.Add(this.labelConflationClassSize);
             this.groupBox4.Location = new System.Drawing.Point(13, 550);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(440, 142);
             this.groupBox4.TabIndex = 22;
             this.groupBox4.TabStop = false;
@@ -471,7 +471,7 @@ namespace WordListAnalyser2
             // buttonClear
             // 
             this.buttonClear.Location = new System.Drawing.Point(13, 780);
-            this.buttonClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonClear.Margin = new System.Windows.Forms.Padding(4);
             this.buttonClear.Name = "buttonClear";
             this.buttonClear.Size = new System.Drawing.Size(133, 28);
             this.buttonClear.TabIndex = 5;
@@ -498,9 +498,9 @@ namespace WordListAnalyser2
             this.StemmingErrorGroupBox.Controls.Add(this.labelOIG);
             this.StemmingErrorGroupBox.Controls.Add(this.labelUI);
             this.StemmingErrorGroupBox.Location = new System.Drawing.Point(461, 555);
-            this.StemmingErrorGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StemmingErrorGroupBox.Margin = new System.Windows.Forms.Padding(4);
             this.StemmingErrorGroupBox.Name = "StemmingErrorGroupBox";
-            this.StemmingErrorGroupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.StemmingErrorGroupBox.Padding = new System.Windows.Forms.Padding(4);
             this.StemmingErrorGroupBox.Size = new System.Drawing.Size(497, 183);
             this.StemmingErrorGroupBox.TabIndex = 21;
             this.StemmingErrorGroupBox.TabStop = false;
@@ -656,9 +656,9 @@ namespace WordListAnalyser2
             this.groupBox3.Controls.Add(this.labelInverseMeanMHD);
             this.groupBox3.Controls.Add(this.labelSSM);
             this.groupBox3.Location = new System.Drawing.Point(13, 700);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(331, 73);
             this.groupBox3.TabIndex = 19;
             this.groupBox3.TabStop = false;
@@ -678,9 +678,9 @@ namespace WordListAnalyser2
             this.groupBoxInputs.Controls.Add(this.labelFileBName);
             this.groupBoxInputs.Controls.Add(this.labelFileAName);
             this.groupBoxInputs.Location = new System.Drawing.Point(16, 79);
-            this.groupBoxInputs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxInputs.Margin = new System.Windows.Forms.Padding(4);
             this.groupBoxInputs.Name = "groupBoxInputs";
-            this.groupBoxInputs.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxInputs.Padding = new System.Windows.Forms.Padding(4);
             this.groupBoxInputs.Size = new System.Drawing.Size(437, 91);
             this.groupBoxInputs.TabIndex = 21;
             this.groupBoxInputs.TabStop = false;
@@ -712,7 +712,7 @@ namespace WordListAnalyser2
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStripMain;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
