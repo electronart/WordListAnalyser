@@ -83,12 +83,12 @@ namespace WordListAnalyser2
 		double iSumLenB = 0;
 		
 			
-		[DllImport("shell32.dll")]
+		[DllImport("shell32.dll",CharSet = CharSet.Unicode)]
 		static extern int SHGetFolderPath(IntPtr hwndOwner, Environment.SpecialFolder nFolder,
          IntPtr hToken, uint dwFlags, [Out] StringBuilder pszPath);
 
 		//added 17 april 2012
-		[DllImport("wininet.dll")]
+		[DllImport("wininet.dll",CharSet = CharSet.Unicode)]//added Charset.Unicode 8/12/18
 		private extern static bool InternetGetConnectedState(out int conn, int val);
 		
 		

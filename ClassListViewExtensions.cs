@@ -47,16 +47,16 @@ public static class ListViewExtensions
         public Mask mask; 
         public int cxy; 
         [MarshalAs(UnmanagedType.LPTStr)] public string pszText; 
-        public IntPtr hbm; 
+        private IntPtr hbm; //was Public
         public int cchTextMax; 
         public Format fmt; 
-        public IntPtr lParam; 
+        private IntPtr lParam; //was public
         // _WIN32_IE >= 0x0300  
         public int iImage; 
         public int iOrder; 
         // _WIN32_IE >= 0x0500 
         public uint type; 
-        public IntPtr pvFilter; 
+        private IntPtr pvFilter; //was public
         // _WIN32_WINNT >= 0x0600 
         public uint state; 
  
@@ -85,9 +85,12 @@ public static class ListViewExtensions
     public static extern IntPtr SendMessage(IntPtr hWnd, UInt32 msg, IntPtr wParam, IntPtr lParam); 
  
     [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)] 
-    public static extern IntPtr SendMessage(IntPtr hWnd, UInt32 msg, IntPtr wParam, ref HDITEM lParam); 
- 
-    public static void SetSortIcon(this ListView listViewControl, int columnIndex, SortOrder order) 
+    public static extern IntPtr SendMessage(IntPtr hWnd, UInt32 msg, IntPtr wParam, ref HDITEM lParam);
+//TODO Severity	Code	Description	Project	File	Line	Suppression State
+     //   Warning CA1401  Change the accessibility of P/Invoke 'ListViewExtensions.SendMessage(IntPtr, uint, IntPtr, ref ListViewExtensions.HDITEM)' so that it is no longer visible from outside its assembly.WordListAnalyser2 C:\Users\Ray\Documents\GitHub\WordListAnalyser\ClassListViewExtensions.cs	88	Active
+
+
+        public static void SetSortIcon(this ListView listViewControl, int columnIndex, SortOrder order) 
     { 
         IntPtr columnHeader = SendMessage(listViewControl.Handle, LVM_GETHEADER, IntPtr.Zero, IntPtr.Zero); 
         for (int columnNumber = 0; columnNumber <= listViewControl.Columns.Count - 1; columnNumber++) 

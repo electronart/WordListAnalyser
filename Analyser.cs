@@ -7,24 +7,19 @@
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
-using System.Drawing;
 using System.Collections;
 using System.Windows.Forms;
 using System.IO;
-using System.Text.RegularExpressions;
-using System.Text;
 //using MyReaderNS;
 //using StemmingTester;
-using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace WordListAnalyser2
 {
-	/// <summary>
-	/// Based on code in SwingInterface.java in Program.zip
-	/// from Lancs University R.Hood 2004.
-	/// </summary>
-	public class Analyser
+    /// <summary>
+    /// Based on code in SwingInterface.java in Program.zip
+    /// from Lancs University R.Hood 2004.
+    /// </summary>
+    public class Analyser
 	{
 	 
 	private double[] weakUIarray = new double[7];
