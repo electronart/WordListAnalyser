@@ -10,7 +10,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
-    <ApplicationIcon>..\LA.ico</ApplicationIcon>
+    <ApplicationIcon>la.ico</ApplicationIcon>
     <NoWin32Manifest>False</NoWin32Manifest>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -149,6 +149,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="la.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
 </Project>
