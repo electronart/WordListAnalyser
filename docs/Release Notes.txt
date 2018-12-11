@@ -1,11 +1,13 @@
 v1.1.6916 beta Initial Release on GitHub 7 Dec 2018
 Project imported to Visual Studio 2017.
 Fixed missing LA.ico file in project
+MD5: ce40099731709ddcac0d2e0d1e56978e
 
 v1.1.5876 beta - released Feb 3 2016
 File Menu: Preferences added option to emulate error in the Lancaster University Java Stemmer Test Software.
 ERRT added 
 Strong & Strong + Weak added
+MD5: ed1837fbdc272fa9f5ed2aae4c53abd5
 
 v1.0.4980 beta - released Aug 23 2013 
 UI improvements
