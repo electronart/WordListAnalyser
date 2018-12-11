@@ -22,9 +22,11 @@ namespace WordListAnalyser2
 		int m_hoo = -1;
 		
 		bool buffbug = false;
-		
-		
-		public PreferencesWindow()
+
+        public int ERRTMode { get { return mode; } }
+
+
+        public PreferencesWindow()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -74,7 +76,9 @@ namespace WordListAnalyser2
 			MainForm.stemming_mode = mode;
 			MainForm.use_buffer_bug = buffbug;
 			Properties.Settings1.Default.Save();
-			this.Close();
+            Properties.Settings1.Default.Reload();
+            
+            this.Close();
 		}
 		void ButtonCancelClick(object sender, EventArgs e)
 		{

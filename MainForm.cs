@@ -133,13 +133,15 @@ namespace WordListAnalyser2
 			{
 				stemming_mode = MODE_HOOPER;
 			}
-			//InitializeListView();
-			
-			
-			
-		}
-		
-		void InitializeListView()
+            //InitializeListView();
+
+            //added 11 Dec 2018 to show what ERRT mode is set
+            if (stemming_mode == MODE_DTS) StemmingErrorGroupBox.Text = "Stemming Error Count - Normal";
+            else StemmingErrorGroupBox.Text = "Stemming Error Count - Lancs bug";
+                       
+        }
+
+        void InitializeListView()
 		{
 	
 			labelDiffCount.Text = "Total = " ;
@@ -1116,11 +1118,24 @@ namespace WordListAnalyser2
 			
 			labelInverseMeanMHD.Text = "Inverse Mean MHD = " ;
 			labelSSM.Text = "SSM* = " ;
-			
-			labelOIG.Text = "Over-Stemming Index =           ";
-         	labelUI.Text = "Under-Stemming Index =          ";
-         	labelSW.Text = "SW = ";
-         	labelERRT.Text = "ERRT = ";
+
+            //labelOIG.Text = "Over-Stemming Index =           ";
+            //labelUI.Text = "Under-Stemming Index =          ";
+            //labelSW.Text = "SW = ";
+            //labelERRT.Text = "ERRT = ";
+
+
+            labelERRTSOnly.Text = "-";
+            labelERRTSW.Text = "-";
+            labelUnderStemSOnly.Text = "-";
+            labelUnderStemSW.Text = "-";
+            labelOverStemSOnlyG.Text = "-";
+            labelOverStemSOnlyL.Text = "-";
+            labelOverStenSWL.Text = "-";
+            labelOverStemSWG.Text = "-";
+            labelSWSOnly.Text = "-";
+            labelSWSW.Text = "-";
+            
          }
 		
 		//NOT USED
@@ -1211,6 +1226,15 @@ namespace WordListAnalyser2
 			// Preferences Clicked from drop down
 			PreferencesWindow pWin = new PreferencesWindow();
 			pWin.ShowDialog();
-		}
+            //below added 11 Dec 2018
+            if (pWin.ERRTMode == MODE_HOOPER)
+            {
+                StemmingErrorGroupBox.Text = "Stemming Error Count - Lancs bug";
+            } else StemmingErrorGroupBox.Text = "Stemming Error Count - Normal";
+            pWin.Dispose();
+        }
+
+
+       
 }
 }
