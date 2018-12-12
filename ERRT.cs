@@ -81,7 +81,7 @@ namespace WordListAnalyser2
 			
 			// HACK: Tom 14/10/2015 - Valueset never becomes true, not sure if it should do
 			// I've made sure index out of bounds exception can't occur by checking the value of i
-			while(!valueset)// && i < weakUIarray.Length)
+			while((!valueset) && (i < weakUIarray.Length))
 			{
 			 i++;
 			//get temp values
@@ -126,7 +126,7 @@ namespace WordListAnalyser2
 			// loop to find left and right truncation points
 			// HACK: Tom 14/10/2015 - Valueset never becomes true, not sure if it should do
 			// I've made sure index out of bounds exception can't occur by checking the value of i
-			while(!valueset) // && i < weakUIarray.Length)
+			while((!valueset)  && (i < weakUIarray.Length))
 			{
 			i++;
 			//get temp values

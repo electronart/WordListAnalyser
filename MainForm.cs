@@ -1105,7 +1105,7 @@ namespace WordListAnalyser2
 			buttonCalculate.Enabled = false;
 			buttonClear.Enabled = false;
 			toolStripStatusLabelElapsedTime.Text = "";
-            ClearCalculatedResults();//not working - new strong/strong + weak labels added must be incorrect source
+            ClearCalculatedResults();
 
         }
 		
@@ -1234,7 +1234,9 @@ namespace WordListAnalyser2
             pWin.Dispose();
         }
 
+        private void labelSWSW_Click(object sender, EventArgs e)
+        {
 
-       
-}
+        }
+    }
 }

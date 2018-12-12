@@ -538,6 +538,7 @@ namespace WordListAnalyser2
             this.labelSWSW.Size = new System.Drawing.Size(118, 14);
             this.labelSWSW.TabIndex = 9;
             this.labelSWSW.Text = "-";
+            this.labelSWSW.Click += new System.EventHandler(this.labelSWSW_Click);
             // 
             // labelOverStenSWL
             // 
@@ -586,7 +587,7 @@ namespace WordListAnalyser2
             this.labelERRT.Name = "labelERRT";
             this.labelERRT.Size = new System.Drawing.Size(133, 14);
             this.labelERRT.TabIndex = 3;
-            this.labelERRT.Text = "ERRT =";
+            this.labelERRT.Text = "ERRT(L) =";
             // 
             // labelSW
             // 
@@ -594,13 +595,13 @@ namespace WordListAnalyser2
             this.labelSW.Name = "labelSW";
             this.labelSW.Size = new System.Drawing.Size(133, 14);
             this.labelSW.TabIndex = 2;
-            this.labelSW.Text = "SW =";
+            this.labelSW.Text = "SW(L)=";
             // 
             // labelOIG
             // 
             this.labelOIG.Location = new System.Drawing.Point(7, 67);
             this.labelOIG.Name = "labelOIG";
-            this.labelOIG.Size = new System.Drawing.Size(133, 14);
+            this.labelOIG.Size = new System.Drawing.Size(134, 14);
             this.labelOIG.TabIndex = 1;
             this.labelOIG.Text = "Over Stemming Index (G) =";
             // 
