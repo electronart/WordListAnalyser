@@ -21,8 +21,9 @@ You are welcome to use this software for anything you choose, be it for academic
 
 A final note. There are some that like to promote the idea that there is some kind of 'war' between open source and closed source software companies, my point of view is that both have their place, and it's a case of 'horses for courses'; choose whatever does the job you want it to. We have used and contributed to both open source and closed source software for over 30 years, and were pioneers in 'shareware' distribution in the early '90s. Word List Analyzer has always been, and will continue to be, distributed by us free of charge. Please feel free to add your name to the List of Contributors if you find a bug, make an edit or use it in your research!
 
-Kind Regards
-Ray Harris BA MIET
-Founder & CEO of ElectronArt Design Ltd
-http://electronart.co.uk
-http://www.dtsearch.co.uk/products/list-analyser.aspx
+Kind Regards  
+Ray Harris BA MIET  
+Founder & CEO of ElectronArt Design Ltd  
+http://electronart.co.uk  
+http://www.dtsearch.co.uk/products/list-analyser.aspx  
+
