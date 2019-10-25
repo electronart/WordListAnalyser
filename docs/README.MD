@@ -24,6 +24,6 @@ A final note. There are some that like to promote the idea that there is some ki
 Kind Regards  
 Ray Harris BA MIET  
 Founder & CEO of ElectronArt Design Ltd  
-http://electronart.co.uk  
-http://www.dtsearch.co.uk/products/list-analyser.aspx  
+https://electronart.co.uk  
+https://www.dtsearch.co.uk/products/list-analyser.aspx  
 
